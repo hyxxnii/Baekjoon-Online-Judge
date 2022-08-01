@@ -11,6 +11,5 @@ if A < B:
 elif A > B:
     print('>')
 
-elif A == B:
+else:
     print('==')
-
