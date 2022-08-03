@@ -19,4 +19,3 @@ for i in range(10):
         if num == 0:
             break
     print(cnt)  
-
