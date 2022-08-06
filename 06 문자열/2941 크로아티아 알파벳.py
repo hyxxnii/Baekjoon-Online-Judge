@@ -6,6 +6,9 @@ croatia = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 word = input()
 
 for c in croatia:
-    word = word.replace(c, '*')
+    print(word.count(c))
     
-print(len(word))
+# print(len(word))
+
+# 다른 사람 풀이 추가
+# word.count(croatia[i])
